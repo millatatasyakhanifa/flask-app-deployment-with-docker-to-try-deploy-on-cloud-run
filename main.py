@@ -4,7 +4,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import io
 from flask import Flask, request, jsonify
 import urllib.request
-import requests
 app = Flask(__name__)
 
 
